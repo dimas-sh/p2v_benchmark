@@ -156,21 +156,10 @@ cat executive_summary_*.txt          # For management
 - 10GB free disk space (for test files)
 - Internet connection (for dependency installation)
 
-### Method 1: Direct Download
+### Git Clone
 
 ```bash
-# Download all scripts
-wget https://raw.githubusercontent.com/yourusername/repo/main/run.sh
-wget https://raw.githubusercontent.com/yourusername/repo/main/parse_results.sh
-wget https://raw.githubusercontent.com/yourusername/repo/main/diagnose_logs.sh
-
-chmod +x *.sh
-```
-
-### Method 2: Git Clone
-
-```bash
-git clone https://github.com/yourusername/repo.git
+git clone https://github.com/dimas-sh/p2v_benchmark.git
 cd repo
 chmod +x *.sh
 ```
@@ -539,7 +528,7 @@ grep "ERROR\|WARN" benchmark_logs_*/
 
 ### Getting Help
 
-1. Check [Issues](https://github.com/yourusername/repo/issues)
+1. Check [Issues](https://github.com/dimas-sh/p2v_benchmark/issues)
 2. Run diagnostic: `./diagnose_logs.sh benchmark_logs_*/`
 3. Share diagnostic output when reporting issues
 
@@ -561,7 +550,7 @@ Contributions welcome! Please follow these guidelines:
 ### Development Setup
 
 ```bash
-git clone https://github.com/yourusername/repo.git
+git clone https://github.com/dimas-sh/p2v_benchmark.git
 cd repo
 
 # Create feature branch
@@ -606,9 +595,9 @@ Inspired by real-world infrastructure migration challenges.
 ## 📞 Support
 
 - 📖 [Full Documentation](docs/METHODOLOGY.md)
-- 💬 [Discussions](https://github.com/yourusername/repo/discussions)
-- 🐛 [Report Bug](https://github.com/yourusername/repo/issues)
-- 💡 [Request Feature](https://github.com/yourusername/repo/issues)
+- 💬 [Discussions](https://github.com/dimas-sh/p2v_benchmark/discussions)
+- 🐛 [Report Bug](https://github.com/dimas-sh/p2v_benchmark/issues)
+- 💡 [Request Feature](https://github.com/dimas-sh/p2v_benchmark/issues)
 
 ---
 
@@ -616,7 +605,7 @@ Inspired by real-world infrastructure migration challenges.
 
 If this project helped you make better infrastructure decisions, please consider giving it a star!
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/repo&type=Date)](https://star-history.com/#yourusername/repo&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=dimas-sh/p2v_benchmark&type=Date)](https://star-history.com/#dimas-sh/p2v_benchmark&Date)
 
 ---
 
@@ -632,7 +621,7 @@ If this project helped you make better infrastructure decisions, please consider
 ```
 MIT License
 
-Copyright (c) 2024 [Your Name]
+Copyright (c) 2024 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -734,6 +723,3 @@ server-benchmark-suite/
     └── sample_executive.txt    # Example executive summary
 ```
 
----
-
-This complete package provides everything needed for a professional GitHub repository!
